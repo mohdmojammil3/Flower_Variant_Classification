@@ -4,7 +4,9 @@ import pandas as pd
 import joblib
 import os
 
-app = Flask(__name__)
+application = Flask(__name__)
+
+app = application
 
 model = joblib.load(os.path.join("models", "model.pkl"))
 
@@ -40,4 +42,4 @@ def predict():
         return render_template('index.html', prediction="Invalid input")
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0",port=8080)
+    app.run(host="0.0.0.0")
