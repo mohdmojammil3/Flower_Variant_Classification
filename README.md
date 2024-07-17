@@ -1,5 +1,24 @@
 # Flower Variant Classification
-This project is aimed at predicting flower variants based on several features. The model utilized for prediction is RandomForestClassifier.
+This project is aimed at predicting flower variants based on several features such as petal length, petal width, sepal length, and sepal width. The model utilized for prediction is RandomForestClassifier, which is known for its robustness and accuracy.
+
+# Features Used:
+
+* Petal Length: Length of the petal in centimeters.
+* Petal Width: Width of the petal in centimeters.
+* Sepal Length: Length of the sepal in centimeters.
+* Sepal Width: Width of the sepal in centimeters.
+
+# Dataset:
+The dataset consists of multiple flower samples, each labeled with its variant.
+Data is split into training and testing sets to evaluate model performance.
+
+# Preprocessing:
+* Handling missing values.
+* Encoding categorical variables.
+* Normalizing/standardizing numerical features.
+
+* Model:
+RandomForestClassifier: A versatile and widely-used ensemble learning method that constructs multiple decision trees and merges them to get a more accurate and stable prediction.
 
 
 # Table of Contents
